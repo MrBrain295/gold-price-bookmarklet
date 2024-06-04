@@ -13,7 +13,7 @@ async function goldPrice() {
     if (!t.ok) throw Error(`Failed to fetch gold price. Status: ${t.status}`);
     let a = await t.json(),
       o = a.rates.XAU;
-    alert("The current price of gold is $" + o);
+    alert("The current price for one ounce of gold is $" + o + ".");
   } catch (c) {
     console.error("An error occurred:", c);
   }
