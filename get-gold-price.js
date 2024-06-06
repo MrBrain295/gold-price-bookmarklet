@@ -1,4 +1,3 @@
-goldPrice();
 async function goldPrice() {
   const apiUrl = "https://live-metal-prices.p.rapidapi.com/v1/latest/XAU/USD";
   const fetchOptions = {
